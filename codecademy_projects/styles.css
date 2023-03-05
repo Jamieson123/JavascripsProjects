@@ -1,0 +1,36 @@
+
+
+h1 {
+font-family: Helvetica;
+font-size: 100px;
+font-weight: bold;
+color: khaki;
+background-image: url("C:\Users\Darel\Desktop\project images\H1image.jpeg");
+
+*}
+
+h2 {
+font-family: Helvetica;
+font-size: 32px;
+font-weight: bold;
+color: white;
+text-align: left;
+}
+
+h3 {
+    font-family: Helvetica;
+    color:   
+}
+
+.brushes {
+    background-color: mediumspringgreen;
+}
+
+.frames {
+    background-color: lightcoral;
+}
+
+.paint {
+    background-color: skyblue;
+}
+
