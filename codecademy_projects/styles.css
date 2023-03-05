@@ -34,3 +34,13 @@ h3 {
     background-color: skyblue;
 }
 
+.highlighted {
+font-family: Helvetica;
+font-weight: bold;
+color: blue;
+}
+
+p {
+    color: black;
+    align-items:left;
+}
