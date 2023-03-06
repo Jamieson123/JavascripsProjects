@@ -19,7 +19,7 @@ text-align: left;
 
 h3 {
     font-family: Helvetica;
-    color:   
+    color: white;
 }
 
 .brushes {
@@ -34,7 +34,7 @@ h3 {
     background-color: skyblue;
 }
 
-.highlight {
+.boldblue {
 font-family: Helvetica;
 font-weight: bold;
 color: blue;
