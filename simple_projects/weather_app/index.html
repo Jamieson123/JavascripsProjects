@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="forecast-container">
+            <div class="today forecast">
+                <div class="forecast-header">
+                    <div class="day">Weather App</div>
+                    <div class="date">
+                        <input type="text" id="city-input" class="awesomplete" placeholder="Enter city name" data-list="">
+                        <button id="get-weather-btn">Get Weather</button>
+                    </div>
+                </div> 
+                <div class="forecast-content" id="weather-result">
+                    <div class="location"></div>
+                    <div class="degree">
+                        <div class="num"></div>
+                        <div class="forecast-icon">
+                            <img src="" alt="weather icon" class="icon">
+                        </div>  
+                    </div>
+                    <span><div class="description"></div></span>
+                    <span><div class="humidity"></div></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
