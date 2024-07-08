@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texas Hold'em Helper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center">Texas Hold'em Helper</h1>
+    <div id="input-hand">
+        <h2>Enter Your Poker Hand:</h2>
+        <input type="text" id="card1" placeholder="e.g., 10H" maxlength="3">
+        <input type="text" id="card2" placeholder="e.g., JC" maxlength="3">
+        <button id="submitHand">Submit Hand</button>
+    </div>
+    <div id="poker-hand">
+        <h2>Poker Hand:</h2>
+        <div id="cards" class="grid-container"></div>
+        <p id="hand"></p>
+    </div>
+    <div id="suggestion">
+        <h2>Suggested Action:</h2>
+        <p id="action"></p>
+    </div>
+    <div id="percentage">
+        <h2>Winning Probability:</h2>
+        <p id="win-probability"></p>
+    </div>
+
+    <!-- Include PokerSolver script -->
+    <script src="https://cdn.jsdelivr.net/npm/pokersolver@2.1.4/pokersolver.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
