@@ -1,4 +1,4 @@
-const apiKey = '10c41a8ef9416ceb9212b17194cf99ea';
+const apiKey = 'Hidden';
 const cityInput = document.getElementById('city-input');
 const weatherBtn = document.getElementById('get-weather-btn');
 const weatherResult = document.getElementById('weather-result');
